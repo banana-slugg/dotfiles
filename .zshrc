@@ -107,3 +107,8 @@ alias dl="/home/crimsin/Downloads"
 alias vim="nvim"
 alias vi="nvim"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias fixgrub='sudo grub-install && sudo os-prober && sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
+
+export PATH=$PATH:/home/crimsin/.local/bin
+
